@@ -1,0 +1,159 @@
+body {
+    font-family: 'manrope', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+  }
+  
+  .header-container {
+    font-family: 'manrope', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  .nav-container {
+    font-family: 'manrope', sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-link {
+    font-family: 'manrope', sans-serif;
+    margin: 0 1px;
+    text-decoration: none;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-link:hover {
+    border-radius: 5px;
+    background-color: wheat;
+    color: black;
+  }
+  
+  .contact-info {
+    font-family: 'manrope', sans-serif;
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .contact-phone, .contact-email {
+    font-family: 'manrope', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .form-section {
+    font-family: 'manrope', sans-serif;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px white (0, 0, 0, 0.1);
+  }
+  
+  .contact-form {
+    font-family: 'manrope', sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    font-family: 'manrope', sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .form-input, .form-textarea {
+    font-family: 'manrope', sans-serif;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    font-family: 'manrope', sans-serif;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: wheat;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: wheat;
+    color: black;
+  }
+  
+  .profile-photo {
+    width: auto;
+    height: 150px;
+    border-radius: 20%;
+    margin-left: 600px;
+  }
+  
+  .cv-button {
+    bottom: calc(100vh - 50px);
+    background-color: black;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .cv-button:hover {
+    background-color: wheat;
+    color: black;
+  }
+  
+  .contact-link {
+    font-family: 'manrope', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #2196f3;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .divider {
+    background-color: wheat;
+    width: 100%;
+    height: 20px;
+    margin: 30px 0;
+  }
+  
+  #rights {
+    font-family: 'manrope', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    bottom: 0%;
+    width: auto;
+    border-top: 50px;
+  }
+  
+  
+  .manrope-<uniquifier> {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
